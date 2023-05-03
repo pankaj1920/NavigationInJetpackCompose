@@ -22,7 +22,9 @@ fun StevdzaHomeScreen(navController: NavController) {
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Text(
             modifier = Modifier.clickable {
-                navController.navigate(ScreenRoute.DetailScreen.route)
+//                navController.navigate(ScreenRoute.DetailScreen.route)
+//                navController.navigate("detail_screen/1")
+                navController.navigate(ScreenRoute.DetailScreen.passId(80))
             },
             text = "Home",
             color = MaterialTheme.colors.primary,
@@ -35,5 +37,5 @@ fun StevdzaHomeScreen(navController: NavController) {
 @Composable
 @Preview(showBackground = true)
 fun HomeScreenPreview() {
-    StevdzaHomeScreen( rememberNavController())
+    StevdzaHomeScreen(rememberNavController())
 }
