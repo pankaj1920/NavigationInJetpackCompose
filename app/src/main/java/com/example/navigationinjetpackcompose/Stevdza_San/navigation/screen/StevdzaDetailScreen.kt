@@ -1,4 +1,4 @@
-package com.example.navigationinjetpackcompose.Stevdza_San.screen
+package com.example.navigationinjetpackcompose.Stevdza_San.navigation.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable

@@ -7,8 +7,8 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.example.navigationinjetpackcompose.Stevdza_San.screen.StevdzaDetailScreen
-import com.example.navigationinjetpackcompose.Stevdza_San.screen.StevdzaHomeScreen
+import com.example.navigationinjetpackcompose.Stevdza_San.navigation.screen.StevdzaDetailScreen
+import com.example.navigationinjetpackcompose.Stevdza_San.navigation.screen.StevdzaHomeScreen
 import com.example.navigationinjetpackcompose.Stevdza_San.utils.Constant.DETAIL_ARGS_KEY
 
 @Composable
